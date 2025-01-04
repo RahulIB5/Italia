@@ -1,0 +1,72 @@
+p{
+    margin: 0;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    width: 90%;
+}
+.footer-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-container div div p {
+    padding: 20px; 
+}
+.footer-container div div p:hover {
+    color: rgb(84, 104, 255);
+}
+.discover {
+    text-decoration: none;
+    color: black;
+}
+.discover:hover {
+    color: rgb(84, 104, 255);
+}
+.discover:active {
+    color: black;
+}
+.soc-med a div img {
+    width: 20px;
+    height: 20px;
+}
+.soc-med a div img:hover {
+    opacity: 0.6;
+}
+.soc-med {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.soc-med a div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.soc-med a div p {
+    text-decoration: dotted;
+    color: black;
+}
+.soc-med a div p:active {
+    color: black;
+}

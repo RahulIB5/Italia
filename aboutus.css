@@ -1,0 +1,129 @@
+body{
+    margin-top: 110px;
+}
+#about-landing{
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/aboutus-bg.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+.container-review {
+    max-width: 600px;
+    margin: auto;
+    border: 5px;
+    border-color: rgb(0, 4, 255);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(183, 254, 255);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.review {
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.review:hover{
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.review strong {
+    display: block;
+    margin-bottom: 5px;
+}
+.ending-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/quote.jpg");
+    object-fit: contain;
+    align-items: center;
+    margin-top: 50px;
+}
+.agreement {
+    flex: 1;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 15px; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card { 
+    flex: 1;
+    background-color: rgb(183, 254, 255); 
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: center;  
+    opacity: 0.9;
+    margin: 20px;
+}
+.subb { 
+    color: #bf0303; 
+    margin-bottom: 1px;
+    font-size: 14px; 
+} 
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.msg { 
+    display: none; 
+    color: rgb(0, 0, 0); 
+    margin-top: 5px;
+    font-size: 14px;
+}
+input[type="email"] { 
+    width: 65%; 
+    padding: 5px; 
+    margin-bottom: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 7px;
+    margin-top: 7px; 
+}
+input[type="text"] {
+    width: 65%; 
+    padding: 5px; 
+    margin-bottom: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 7px;
+    margin-top: 7px;
+}
+.card form button { 
+    height: 20px;
+    width: 100px;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600; 
+    margin-top: 0px;
+    cursor: pointer; 
+    transition: background-color 0.4s ease; 
+}
+.card form button:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.card form button:active {
+    box-shadow: 0 0 15px rgb(255, 39, 39);
+}
+

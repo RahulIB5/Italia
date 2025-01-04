@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism in Italy</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+<body>
+    <header>
+        <h1>Tourism in Italy</h1>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html"><img class="italia-logo" src="./images/logoitalia-1.jpeg"></a></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="where-to-go.html">Where to go</a></li>
+                    <li><a href="what-to-do.html">What to do</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="signup">
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <center>
+    <div class="container-signup">
+        <div class="form-container sign-up-container">
+            <form id="signUpForm">
+                <h1>Create Account</h1>
+                <input type="text" placeholder="Name" id="signUpName" required />
+                <input type="email" placeholder="Email" id="signUpEmail" required />
+                <input type="password" placeholder="Password" id="signUpPassword" required />
+                <br><br><button type="submit">Sign Up</button>
+                <p><br><br>Already have an account? <a href="#" id="switchToLogin">Log in</a></p>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form id="loginForm">
+                <h1>Log In</h1>
+                <input type="email" placeholder="Email" id="loginEmail" required />
+                <input type="password" placeholder="Password" id="loginPassword" required />
+                <br><br><button type="submit">Log In</button>
+                <p><br><br>Don't have an account? <a href="#" id="switchToSignUp">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+    </center>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <p class="word">Discover</p>
+                <div><p>Accessibiity Statment</p>
+                <p>Careers</p>
+                <p>Contact</p>
+                <p>FAQs</p></div>
+            </div>
+            <div>
+                <p class="word">Resources</p>
+                <div><p>Blog</p>
+                <p>eBooks</p>
+                <p>News</p></div>
+            </div>
+            <div>
+                <p class="word">Legal</p>
+                <div><p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>©️ Italia 2024</p></div>
+            </div>
+            <div>
+                <p class="word">Social</p>
+                <div class="soc-med">
+                    <a href="https://www.facebook.com/italiait.EN/">
+                    <div><img class="facebook" src="images/facebook.jpeg">
+                    <p>Facebook</p></div>
+                    </a>
+                    <a href="https://www.instagram.com/italiait/">
+                    <div><img class="facebook" src="images/insta.jpeg">
+                    <p>Instagram</p></div>
+                    </a>
+                    <a href="https://x.com/italia">
+                    <div><img class="facebook" src="images/X.png">
+                    <p>X</p></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="signup.js"></script>
+</body>
+</html>
